@@ -1,0 +1,189 @@
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  /* max-width: 1250px; */
+}
+
+.logoimage {
+  height: 50px;
+  margin: 5%;
+  margin-left: 3em;
+  cursor: pointer;
+}
+
+.ul {
+  display: flex;
+  list-style-type: none;
+  margin-right: 5em;
+}
+.li {
+  margin-right: 3%;
+  cursor: pointer;
+  font-size: 23px;
+  padding: 10px;
+}
+.li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+.li:hover,
+a:hover {
+  background-color: green;
+  color: white;
+  border-radius: 10%;
+}
+.texts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+}
+.allproducts {
+  margin-left: 3em;
+  font-size: 28px;
+}
+.select {
+  margin-right: 5em;
+}
+.products {
+  margin-left: 6%;
+  margin-right: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-right: 3%; */
+}
+.container {
+  /* padding-left: 8px; */
+  padding-top: 2px;
+  flex-wrap: wrap;
+  padding-left: 1em;
+  /* padding-left: 10px; */
+  display: flex;
+  min-width: 230px;
+  flex-direction: column;
+  /* width: 100px; */
+  transition: 0.3s;
+  cursor: pointer;
+  margin: 1.5%;
+  /* min-width: 20%; */
+  -webkit-box-shadow: 2px 2px 5px 6px rgba(0, 0, 0, 0.06);
+  box-shadow: 2px 2px 5px 6px rgba(0, 0, 0, 0.06);
+}
+.container:hover {
+  transform: translateY(-10px);
+}
+.img {
+  height: 280px;
+}
+.pages {
+  display: flex;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 5%;
+  list-style: none;
+}
+.page1:nth-child(1) {
+  background-color: green;
+  color: white;
+  border: none;
+}
+.page1 {
+  padding: 10px;
+  border: 2px solid pink;
+  margin-left: 1%;
+  cursor: pointer;
+  width: 2%;
+}
+.page1:hover {
+  background-color: lightgray;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+}
+.download {
+  flex: 1;
+  margin: 3%;
+  margin-top: 6%;
+}
+.google {
+  height: 40px;
+  cursor: pointer;
+  margin-top: 2%;
+}
+.apple {
+  height: 40px;
+  cursor: pointer;
+  margin-top: 2%;
+}
+.useful {
+  flex: 0.5;
+  margin: 3%;
+  margin-top: 6%;
+}
+.iconss {
+  flex: 0.5;
+  margin: 3%;
+  margin-top: 6%;
+  cursor: pointer;
+}
+.follow {
+  flex: 0.5;
+  margin: 3%;
+  margin-top: 6%;
+}
+.links {
+  list-style: none;
+}
+.lii {
+  margin-top: 2%;
+  cursor: pointer;
+}
+.footerplus {
+  background-color: black;
+  color: white;
+}
+.copyright {
+  margin-left: 45%;
+  padding-bottom: 10px;
+}
+.white {
+  background-color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .select {
+    margin-left: 12em;
+  }
+  .ul {
+    margin-left: 10%;
+  }
+  .products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    width: 100%;
+    padding-left: 5em;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
